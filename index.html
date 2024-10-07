@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Residencia</title>
+</head>
+<body>
+    <nav class="navbar">
+        <span class="menu-toggle">&#9776;</span> 
+        <h1 class="logo">Residencia Estudiantil</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#inicio" id="inicio-rojo">Inicio</a></li>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Ofrecemos</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contáctenos</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Residencia Estudiantil</h1>
+                <h2>Tu mejor opción en Rosario</h2>
+        </div>
+    </header>
+
+    <section id="nosotros" class="content-nosotros">
+        <div class="titulo-nosotros">
+            <h2>SOBRE NOSOTROS</h2>
+            <P>
+                Bienvenidos a nuestra residencia estudiantil en la vibrante ciudad de Rosario, ubicada en la provincia de Santa Fe, Argentina.
+                Te encontrarás con un moderno edificio que te brindará espacios donde conectarte con la comunidad, ya sea compartiendo el playroom o la sala de coworking.
+            </p>
+            <p>
+                Tendrás en este Wanna toda la privacidad que necesites ya que cada unidad cuenta con amplios espacios, cocina privada totalmente incluida y cómodos escritorios y mesas.            </p>
+        </div>
+
+        <div class="imagen-titulo">
+            <img src="imagenes/fondo-artificial.png" alt="" width="500px" height="500px">
+        </div>
+    </section>
+    
+
+
+    <section id="servicios" class="content-servicios">
+        <h2>SERVICIOS QUE OFRECEMOS</h2>
+        <div class="line"></div>
+
+        <div class="image-servicios">
+
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+            <div>
+                <img src="imagenes/wifi.png" alt="">
+                <span><strong>Wifi</strong></span>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="galeria" class="content-galeria">
+
+        
+        <div onclick="closeImg()" class="ful-img" id="fulImgBox">
+            <img src="imagenes/interior-residencia.jpg" id="fulImg" alt="">
+            <span><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="m253.9-229.79-24.11-24.11L455.9-480 229.79-706.1l24.11-24.11L480-504.1l226.1-226.11 24.11 24.11L504.1-480l226.11 226.1-24.11 24.11L480-455.9 253.9-229.79Z"/></svg></span>
+        </div>
+        
+        <h2>GALERÍA</h2>
+        <div class="line"></div>
+        
+        <div class="galery">
+            <div id="fullImage" class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia.jpg" alt="">
+                <span>Cocina</span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)" src="imagenes/interior-residencia1.jpg" alt="">
+                <span><strong>Habitación triple</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia6.jpg" alt="">
+                <span><strong>Habitación cuádruple</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia3.jpg" alt="">
+                <span><strong>Habitación doble</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia4.jpg" alt="">
+                <span><strong>Habitación cuádruple</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia5.jpg" alt="">
+                <span><strong>Habitación doble</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia6.jpg" alt="">
+                <span><strong>Sala de estudio</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia.jpg" alt="">
+                <span><strong>Terraza</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia1.jpg" alt="">
+                <span><strong>Lavadero</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia5.jpg" alt="">
+                <span><strong>Baño principal</strong></span>
+            </div>
+            <div  class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia3.jpg" alt="">
+                <span><strong>Baño secundario</strong></span>
+            </div>
+            <div class="image-item">
+                <img onclick="openFulImg(this.src)"  src="imagenes/interior-residencia4.jpg" alt="">
+                <span><strong>Sala de estudio</strong></span>
+            </div>
+        </div>
+    </section>
+
+    <div id="contacto" class="section-contacto">
+        <div class="ubicacion">
+            <h2>UBICACIÓN</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5754.65291416481!2d-60.66240331794089!3d-32.94001423664243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab45a0ccdacf%3A0xc34be638b97160f0!2sSan%20Lorenzo%202789%2C%20S2000KPK%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1679143592460!5m2!1ses-419!2sar" width="100%" height="400" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="content-contacto">
+            <h2>CONTÁCTENOS</h2>
+
+            <div class="item-contacto">
+                    
+                    
+                    <a href=""><img src="imagenes/icono-marcador.png" alt="Logo"><p>San Lorenzo 2789 | Rosario | Argentina</p></a>
+                    <a href=""><img src="imagenes/icono-gmail-logo.svg" alt="Logo"><p>residenciaestudiantil@gmail.com</p></a>
+                    <a href=""><img src="imagenes/icono-whatsapp.svg" alt="Logo"><p>0341 215-5252 | WhatsApp</p></a>
+                    <a href=""><img src="imagenes/icono-instagram.svg" alt="Logo"><p>Residencia | Instagram</p></a>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <p>© Copyright <strong> Residencia Estudiantil 2025.</strong> All Rights Reserved</p>
+    </footer>
+<script src="js/navBar.js"></script>
+<script src="js/imageClick.js"></script>
+</body>
+</html>
